@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "FLASH_DEVICE",
+            "command": "mbed",
+            "args": [
+                "compile",
+                "-m",
+                "lpc1768",
+                "-t",
+                "GCC_ARM",
+                "--flash"
+            ],
+            "type": "shell",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "OPEN_SERIAL",
+            "command": "mbed",
+            "args": [
+                "sterm",
+                "-p",
+                "COM4"
+            ],
+            "type": "shell",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "FLASH_DEVICE"
+            ]
+        }
+    ]
+}

@@ -6,17 +6,23 @@
             "compilerPath": "C:/Users/Alex/dev/tools/arm-gnu-toolchain/12.2 rel1/bin/arm-none-eabi-g++.exe",
             "includePath": [
                 "${workspaceRoot}/*",
-                "${workspaceRoot}/mbed-os/**"
+                "${workspaceRoot}/libs/**",
+                "${workspaceRoot}/mbed-os/**",
+                "${workspaceRoot}/mbed-os/drivers/include/**"
             ],
             "defines": [
                 "MBED_BUILD_TIMESTAMP=1520864281.56",
                 "MBED_CONF_RTOS_PRESENT=1",
-                "MBED_TICKLESS"
+                "MBED_TICKLESS",
+                "DEVICE_INTERRUPTIN",
+                "LPC_GPIO0_BASE"
             ],
             "browse": {
                 "path": [
                     "${workspaceRoot}/*",
-                    "${workspaceRoot}/mbed-os/**"
+                    "${workspaceRoot}/libs/**",
+                    "${workspaceRoot}/mbed-os/**",
+                    "${workspaceRoot}/mbed-os/drivers/include/**"
                 ]
             },
             "configurationProvider": "ms-vscode.cmake-tool"
