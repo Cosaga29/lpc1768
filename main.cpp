@@ -4,6 +4,7 @@
  */
 
 #include "mbed.h"
+#include "libs/Common.hpp"
 
 #include <analyzer/Analyzer.hpp>
 

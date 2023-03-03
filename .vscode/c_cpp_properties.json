@@ -15,7 +15,8 @@
                 "MBED_CONF_RTOS_PRESENT=1",
                 "MBED_TICKLESS",
                 "DEVICE_INTERRUPTIN",
-                "LPC_GPIO0_BASE"
+                "LPC_GPIO0_BASE",
+                "INTELLISENSE_ONLY"
             ],
             "browse": {
                 "path": [

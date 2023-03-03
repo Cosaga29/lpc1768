@@ -2,6 +2,7 @@
 #define LOGIC_ANALYZER
 
 #include "mbed.h"
+#include "libs/Common.hpp"
 
 struct Analyzer
 {
