@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "MBED",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/Users/Alex/dev/tools/arm-gnu-toolchain/12.2 rel1/bin/arm-none-eabi-g++.exe",
+            "includePath": [
+                "${workspaceRoot}/*",
+                "${workspaceRoot}/mbed-os/**"
+            ],
+            "defines": [
+                "MBED_BUILD_TIMESTAMP=1520864281.56",
+                "MBED_CONF_RTOS_PRESENT=1",
+                "MBED_TICKLESS"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/*",
+                    "${workspaceRoot}/mbed-os/**"
+                ]
+            },
+            "configurationProvider": "ms-vscode.cmake-tool"
+        }
+    ],
+    "version": 4
+}
