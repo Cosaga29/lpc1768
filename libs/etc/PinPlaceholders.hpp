@@ -1,4 +1,4 @@
-#ifdef INTELLISENSE_ONLY
+#ifdef __INTELLISENSE__
 
 #ifndef PIN_TMP_NAME
 #define PIN_TMP_NAME

@@ -2,6 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "BUILD",
+            "command": "mbed",
+            "args": [
+                "compile",
+                "-m",
+                "lpc1768",
+                "-t",
+                "GCC_ARM",
+            ],
+            "type": "shell",
+            "problemMatcher": [],
+        },
+        {
             "label": "FLASH_DEVICE",
             "command": "mbed",
             "args": [

@@ -16,7 +16,7 @@
                 "MBED_TICKLESS",
                 "DEVICE_INTERRUPTIN",
                 "LPC_GPIO0_BASE",
-                "INTELLISENSE_ONLY"
+                "__INTELLISENSE__"
             ],
             "browse": {
                 "path": [
